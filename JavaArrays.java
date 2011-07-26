@@ -10,7 +10,8 @@ public class JavaArrays {
   public static void main(String args[]) {
     
     // create an array of primitives - 10 integers
-    //Since an array is an object we have to create it
+    //Since an array is an object we have to instantiate
+    //it with the new keyword
     int iArr[] = new int[10];
     
     // iterating across the array using a traditional for loop
